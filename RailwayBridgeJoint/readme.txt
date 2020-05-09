@@ -1,0 +1,4 @@
+DSDCCDecoder_VVVF_melody_adpcm_forDCS50k
+をベースに切り出してコンパイルまで通したけど、
+
+cargoベースのほうがよさそうなので、凍結
