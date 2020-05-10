@@ -1,3 +1,31 @@
+//--------------------------------------------------------------------------------
+// ima_adpcm デコードプログラム
+// [ima_adpcm.cpp]
+// Copyright (c) 2020 Ayanosuke(Maison de DCC)
+// https://desktopstation.net/bb/index.php
+//
+// ChaNさんのデコードアルゴリズムを引用しています。
+// http://elm-chan.org/junk/adpcm/report.html
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//--------------------------------------------------------------------------------
+
+/*----------------------------------------------------------------------------/
+/* Sound Generator - A test of IMA-ADPCM decoder                              /
+/*----------------------------------------------------------------------------/
+/ This project, program codes and circuit diagrams, is opened under license
+/ policy of following trems.
+/
+/  Copyright (C) 2013, ChaN, all right reserved.
+/
+/ * This project is a free software and there is NO WARRANTY.
+/ * No restriction on use. You can use, modify and redistribute it for
+/   personal, non-profit or commercial use UNDER YOUR RESPONSIBILITY.
+/ * Redistributions of source code must retain the above copyright notice.
+/
+/----------------------------------------------------------------------------*/
+
 #include <avr/pgmspace.h>
 #include "RailwayBridge.h"
 #include "ima_adpcm.h"

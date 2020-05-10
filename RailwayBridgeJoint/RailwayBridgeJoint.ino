@@ -1,5 +1,18 @@
-//#include "ima_adpcm.h"
-//#include "RailwayBridge.h"
+//--------------------------------------------------------------------------------
+// レイアウト用鉄橋ジョイント音ジェネレータ
+// [RailwayBridgeJoint.ino]
+// Copyright (c) 2020 Ayanosuke(Maison de DCC)
+//
+// http://maison-dcc.sblo.jp/ http://dcc.client.jp/ http://ayabu.blog.shinobi.jp/
+// https://twitter.com/masashi_214
+//
+// DCC電子工作連合のメンバーです
+// https://desktopstation.net/tmi/ https://desktopstation.net/bb/index.php
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//--------------------------------------------------------------------------------
+
 #include "jointini.h"
 
 

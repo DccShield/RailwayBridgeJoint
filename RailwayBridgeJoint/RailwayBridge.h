@@ -1,3 +1,13 @@
+//--------------------------------------------------------------------------------
+// レイアウト用鉄橋ジョイント音ジェネレータ
+// [RailwayBridge.h]
+// Copyright (c) 2020 Ayanosuke(Maison de DCC)
+// https://desktopstation.net/bb/index.php
+//
+// This software is released under the MIT License.
+// http://opensource.org/licenses/mit-license.php
+//--------------------------------------------------------------------------------
+
 #ifndef RAILWAYBRIDGE_H_
 #define RAILWAYBRIDGE_H_
 
